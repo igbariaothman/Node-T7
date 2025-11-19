@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #7fa6c6;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#imgBook {
+  width: 370px;
+}
+.card {
+  width: 510px;
+  background-color: #eaf0f7;
+  text-align: center;
+  padding: 40px 25px 35px;
+  box-sizing: border-box;
+}
+h1 {
+  margin: 0 0 30px;
+  font-size: 26px;
+  font-weight: 700;
+  color: #173b63;
+}
+.author {
+  color: #173b63;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+.description {
+  font-size: 13px;
+  color: #444;
+  margin: 0 10px 35px;
+  line-height: 1.4;
+}
+.footer {
+  font-size: 12px;
+  color: #173b63;
+  font-weight: 700;
+}
+
+.links {
+  list-style: none; 
+  padding: 10px;
+  margin: 10px ;
+  display: flex; 
+  justify-content: center; 
+  gap: 15px; 
+}
+
+.links li a {
+  padding: 8px 15px; 
+  border: 1px solid #000000;
+  border-radius: 7px; 
+  text-decoration: none; 
+  font-size: 17px;
+  font-weight: bold;
+  color: black;
+}
